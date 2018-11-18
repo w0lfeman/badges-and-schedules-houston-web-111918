@@ -22,7 +22,7 @@ def assign_rooms(speakers)
     batch_badge_creator(attendees).each do |badge|
       puts badge 
     end
-    assign_rooms(attendess).each do |room|
+    assign_rooms(attendees).each do |room|
       puts room
     end 
   end 
