@@ -3,8 +3,8 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(names_array)
-  names_array.each do |name|
-    badge_maker(name)
+  names_array.each do |name_tag|
+    badge_maker(name_tag)
 end 
 
 def assign_rooms(speakers, rooms)
