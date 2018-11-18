@@ -5,6 +5,7 @@ end
 def batch_badge_creator(names_array)
   names_array.each do |name_tag|
     puts badge_maker(name_tag)
+  end 
 end 
 
 def assign_rooms(speakers, rooms)
