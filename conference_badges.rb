@@ -18,6 +18,6 @@ def assign_rooms(speakers)
   speakers_array 
   end 
   
-  def printer
+  def printer(attendees)
   
   end 
